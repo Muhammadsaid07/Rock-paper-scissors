@@ -6,10 +6,10 @@ let bulletSize = 10;
 let gun;
 
 function preload() {
-    images.rock = loadImage("rock.png");
-    images.paper = loadImage("paper.png");
-    images.scissors = loadImage("scissors.png");
-    gun = loadImage("gun.png");
+    images.rock = loadImage("./rock.png");
+    images.paper = loadImage("./paper.png");
+    images.scissors = loadImage("./scissors.png");
+    gun = loadImage("./gun.png");
 }
 
 function setup() {
